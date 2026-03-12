@@ -16,3 +16,4 @@ pool.query('SELECT NOW()', (err, res) => {
         console.log('Current time:', res.rows[0].now);
     }
 });
+module.exports = pool;
